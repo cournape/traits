@@ -12,7 +12,7 @@ script:
   # version
   - mkdir empty
   - pushd empty
-  - nosetests ../traits
+  - nosetests traits
   - popd empty
 
 notifications:
